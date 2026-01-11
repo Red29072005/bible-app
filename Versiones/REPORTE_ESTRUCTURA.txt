@@ -1,0 +1,228 @@
+=== REPORTE DE ESTRUCTURA (Carpeta: Versiones) ===
+
+NOMBRE DEL ARCHIVO: DHHS'94.commentaries.SQLite3
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: commentaries
+    - book_number (NUMERIC)
+    - chapter_number_from (NUMERIC)
+    - verse_number_from (NUMERIC)
+    - chapter_number_to (NUMERIC)
+    - verse_number_to (NUMERIC)
+    - marker (TEXT)
+    - text (TEXT)
+  --------------------
+
+========================================
+
+NOMBRE DEL ARCHIVO: DHHS'94.SQLite3
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: books_all
+    - book_number (NUMERIC)
+    - short_name (TEXT)
+    - long_name (TEXT)
+    - title (TEXT)
+    - book_color (TEXT)
+    - is_present (BOOLEAN)
+    - sorting_order (NUMERIC)
+  --------------------
+  TABLA: books
+    - book_number (NUMERIC)
+    - short_name (TEXT)
+    - long_name (TEXT)
+    - book_color (TEXT)
+    - sorting_order (NUMERIC)
+  --------------------
+  TABLA: verses
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - text (TEXT)
+  --------------------
+  TABLA: introductions
+    - book_number (NUMERIC)
+    - introduction (TEXT)
+  --------------------
+  TABLA: stories
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - order_if_several (NUMERIC)
+    - title (TEXT)
+  --------------------
+
+========================================
+
+NOMBRE DEL ARCHIVO: LBLA.commentaries.SQLite3
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: commentaries
+    - book_number (NUMERIC)
+    - chapter_number_from (NUMERIC)
+    - verse_number_from (NUMERIC)
+    - chapter_number_to (NUMERIC)
+    - verse_number_to (NUMERIC)
+    - marker (TEXT)
+    - text (TEXT)
+  --------------------
+
+========================================
+
+NOMBRE DEL ARCHIVO: LBLA.SQLite3
+  TABLA: verses
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - text (TEXT)
+  --------------------
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: books
+    - book_number (NUMERIC)
+    - short_name (TEXT)
+    - long_name (TEXT)
+    - book_color (TEXT)
+  --------------------
+  TABLA: books_all
+    - book_number (NUMERIC)
+    - short_name (TEXT)
+    - long_name (TEXT)
+    - book_color (TEXT)
+    - is_present (BOOLEAN)
+  --------------------
+  TABLA: stories
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - order_if_several (NUMERIC)
+    - title (TEXT)
+  --------------------
+  TABLA: introductions
+    - book_number (NUMERIC)
+    - introduction (TEXT)
+  --------------------
+
+========================================
+
+NOMBRE DEL ARCHIVO: NVI'22.commentaries.SQLite3
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: commentaries
+    - book_number (NUMERIC)
+    - chapter_number_from (NUMERIC)
+    - verse_number_from (NUMERIC)
+    - chapter_number_to (NUMERIC)
+    - verse_number_to (NUMERIC)
+    - marker (TEXT)
+    - text (TEXT)
+  --------------------
+
+========================================
+
+NOMBRE DEL ARCHIVO: NVI'22.SQLite3
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: books_all
+    - book_number (NUMERIC)
+    - short_name (TEXT)
+    - long_name (TEXT)
+    - title (TEXT)
+    - book_color (TEXT)
+    - is_present (BOOLEAN)
+    - sorting_order (NUMERIC)
+  --------------------
+  TABLA: books
+    - book_number (NUMERIC)
+    - short_name (TEXT)
+    - long_name (TEXT)
+    - book_color (TEXT)
+    - sorting_order (NUMERIC)
+  --------------------
+  TABLA: verses
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - text (TEXT)
+  --------------------
+  TABLA: introductions
+    - book_number (NUMERIC)
+    - introduction (TEXT)
+  --------------------
+  TABLA: stories
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - order_if_several (NUMERIC)
+    - title (TEXT)
+  --------------------
+
+========================================
+
+NOMBRE DEL ARCHIVO: PDT.commentaries.SQLite3
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: commentaries
+    - book_number (NUMERIC)
+    - chapter_number_from (NUMERIC)
+    - verse_number_from (NUMERIC)
+    - chapter_number_to (NUMERIC)
+    - verse_number_to (NUMERIC)
+    - marker (TEXT)
+    - text (TEXT)
+  --------------------
+
+========================================
+
+NOMBRE DEL ARCHIVO: PDT.SQLite3
+  TABLA: info
+    - name (TEXT)
+    - value (TEXT)
+  --------------------
+  TABLA: introductions
+    - book_number (NUMERIC)
+    - introduction (TEXT)
+  --------------------
+  TABLA: verses
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - text (TEXT)
+  --------------------
+  TABLA: books_all
+    - book_number (NUMERIC)
+    - book_color (TEXT)
+    - short_name (TEXT)
+    - long_name (TEXT)
+    - is_present (BOOLEAN)
+  --------------------
+  TABLA: books
+    - book_number (NUMERIC)
+    - book_color (TEXT)
+    - short_name (TEXT)
+    - long_name (TEXT)
+  --------------------
+  TABLA: stories
+    - book_number (NUMERIC)
+    - chapter (NUMERIC)
+    - verse (NUMERIC)
+    - order_if_several (NUMERIC)
+    - title (TEXT NOR)
+  --------------------
+
+========================================
+
