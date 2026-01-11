@@ -311,4 +311,5 @@ def main(page: ft.Page):
     page.add(ft.Container(content=ft.Stack([view_inicio, view_lectura, view_libros, view_caps, view_ajustes]), expand=True))
 
 if __name__ == "__main__":
+
     ft.run(main)
